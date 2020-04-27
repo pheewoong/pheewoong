@@ -1,0 +1,63 @@
+/* mobile main style */
+div.mobile {min-width:320px;}
+div.header {width:100%; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
+div.header div.title {font-size:14px; text-align:center; height:30px; line-height:30px; margin-bottom:10px; color:#2a2a2a; padding:0 16px;}
+div.header div.title span.titleText {font-weight:300; font-size:22px;}
+div.header div.gnb {background:#fff;}
+div.header div.gnb ul {padding:10px 10px 0 10px; display:flex; justify-content:space-between;}
+div.header div.gnb ul li{position:relative; display:inline-block; font-size:15px;}
+div.header div.gnb ul li a{display:block; text-align:center; height:40px; line-height:40px;}
+div.header div.gnb ul li.menuTypeA {width:22%}
+div.header div.gnb ul li.menuTypeB {width:32%}
+div.header div.gnb ul li.on a{color:#208eff; font-weight:600;}
+div.header div.gnb ul li.on:before {content:""; position:absolute; bottom:0; left:0; display:block; width:100%; height:3px; background:#208eff;}
+div.mainBannr {width:100%; overflow:hidden; height:230px;}
+div.mainBannr img{width:100%; height:100%; background-position: center;}
+
+div.boxConts {padding:0 16px; margin-top:8px; letter-spacing:-0.025em;}
+div.boxConts div.conTit{line-height:30px;border-bottom:1px solid #000;padding: 10px 0;}
+div.boxConts div.conTit h4 {font-size:18px; display:inline-block;}
+div.boxConts div.conTit h4 span.pointTxt{color:#208eff; font-size:14px; margin-left:5px;}
+div.boxConts div.conTit .linkConts{display:inline-block; float:right; font-weight:500; font-size:14px; color:#747474}
+div.boxConts div.conts ul {margin-top:10px;}
+div.boxConts div.conts ul li.contList {width:calc(50% - 6px); margin-right:6px; margin-bottom:16px; float:left;}
+div.boxConts div.conts ul li.contList a {display:block;}
+div.boxConts div.conts ul li.contList:nth-child(2n) {margin-right:0;}
+div.boxConts div.conts ul li.contList div.listThumb {overflow:hidden; max-width:100%; height:auto; background:#000;}
+div.boxConts div.conts ul li.contList div.listThumb img {min-width: 100%;min-height: 100%;width: 100%;}
+div.boxConts div.conts ul li.contList div.listInfo {background:#fff; font-size:14px; padding:6px 0;}
+div.boxConts div.conts ul li.contList div.listInfo span.prsntTitle{display:inline-block; width:90%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+div.boxConts div.conts ul li.contList div.listInfo span.prsntr {color:#797979; font-size:13px; line-height:15px; vertical-align:top;}
+div.boxConts div.conts ul li.contList button.btnQstn {text-align:center; font-size:13px; width: 100%;border: 1px solid #ccc;padding: 3px 0 5px 0;margin-top: 4px;}
+div.boxConts div.conts ul:after {content:""; display:block; clear:both;}
+div.boxConts div.conts button.btnQstn:active {background:#208cff; color:#fff; border:1px solid #208cff !important; transition:0.3s;}
+
+/* iframeppt */
+div.boxConts div.conts ul li.contList.split01 {width:100%; margin-right:0;}
+div.boxConts div.conts ul li.contList.split01 iframe {width:100%;}
+
+
+/* swiper */
+.swiper-container {width: 100%;height: 100%;}
+.swiper-slide {text-align: center;font-size: 18px;background: #fff;
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+.swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.4);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
+.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
+
+
+@media screen and (max-width: 1023px) {
+    ft
+}

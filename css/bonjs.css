@@ -1,0 +1,81 @@
+div.wrapBonday {min-width:320px; position:fixed; top:0; left:0; right:0; bottom:0; background-attachment:fixed; background-image:linear-gradient(50deg,#0808af,#1053fd)}
+div.tityArea {position: fixed; z-index: 100;  color:#fff; top:0; bottom:0; left:0; right:0;}
+div.titCopy {margin-top:5%; margin-left:5%;}
+div.titCopy h1 {font-size:130px !important; font-family:Montserrat, sans-serif;}
+div.titCopy .subTit {font-family: Montserrat; font-weight:300; font-size:46px !important;}
+span.subCopy {position:fixed; bottom:5%; left:5%;display:inline-block; font-family: Montserrat; font-weight:900; font-size:26px !important;}
+span.bonSymbol {z-index: 0;position:absolute;top: -170px;right: 5%;font-size: 1000px;font-weight: bold;color: #fff;font-family: 'Noto Sans', sans-serif;}
+.timerArea strong{font-family: Montserrat;; font-weight:600; }
+.overlay {
+    background:transparent;l
+    z-index: 20;
+    width: 300px;
+    height: 300px;
+    border-top: solid 300px #ffffff00;
+    border-right: solid 300px #fed200;
+    border-left: solid 300px  #ffffff00;
+    border-bottom:solid 300px #fed200;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    opacity: 1;
+    top: auto;
+    left: auto;
+  }
+
+  .timerArea{font-family: 'Noto Sans', sans-serif;}
+  .timerArea strong{font-family: Montserrat;font-size: 46px;font-weight: 500 !important;}
+
+@media screen and (max-height: 730px) { 
+  div.titCopy h1 {font-size:90px !important;}
+  div.titCopy .subTit {font-size:38px !important;}
+  div.timerArea strong {font-size:38px;!important;}
+  span.subCopy {font-size:16px !important;}
+  div.overlay{
+    border-top: solid 150px #ffffff00;
+    border-right: solid 150px #fed200;
+    border-left: solid 150px  #ffffff00;
+    border-bottom:solid 150px #fed200;
+  }
+}
+
+@media screen and (max-height: 580px) { 
+  span.subCopy {display:none;}
+}
+
+@media screen and (max-width: 1094px) { 
+  span.bonSymbol {color:#000; opacity: 0.5;}
+}
+
+@media screen and (max-width: 1000px) {
+  div.overlay{
+    border-top: solid 150px #ffffff00;
+    border-right: solid 150px #fed200;
+    border-left: solid 150px  #ffffff00;
+    border-bottom:solid 150px #fed200;
+  }
+} 
+
+@media screen and (max-width: 768px) { 
+  div.titCopy h1 {font-size:90px !important;}
+  div.titCopy .subTit {font-size:38px !important;}
+  p.timerArea strong {font-size:38px;}
+}
+
+@media screen and (max-width: 495px) { 
+  div.titCopy h1 {font-size:50px !important; margin-top:50px;}
+  div.titCopy .subTit {font-size:22px !important;}
+  p.timerArea strong {font-size:24px !important}
+}
+
+
+
+
+
+
+
+
+
+
+
+

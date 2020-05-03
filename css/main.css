@@ -2,15 +2,15 @@
 div.mobile {min-width:320px;}
 div.header {width:100%; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
 div.header div.title {font-size:14px; text-align:center; height:30px; line-height:30px; margin-bottom:10px; color:#2a2a2a; padding:0 16px;}
-div.header div.title span.titleText {font-weight:300; font-size:22px;}
+div.header div.title span.titleText {font-weight:300; font-size:22px; font-weight:700;}
 div.header div.gnb {background:#fff;}
-div.header div.gnb ul {padding:10px 10px 0 10px; display:flex; justify-content:space-between;}
+div.header div.gnb ul {padding:10px 0 0 0; display:flex; justify-content:space-between;}
 div.header div.gnb ul li{position:relative; display:inline-block; font-size:15px;}
 div.header div.gnb ul li a{display:block; text-align:center; height:40px; line-height:40px;}
 div.header div.gnb ul li.menuTypeA {width:22%}
 div.header div.gnb ul li.menuTypeB {width:32%}
 div.header div.gnb ul li.on a{color:#208eff; font-weight:600;}
-div.header div.gnb ul li.on:before {content:""; position:absolute; bottom:0; left:0; display:block; width:100%; height:3px; background:#208eff;}
+div.header div.gnb ul li.on:before {content:""; position:absolute; bottom:-1px; left:0; display:block; width:100%; height:3px; background:#208eff;}
 div.mainBannr {width:100%; overflow:hidden; height:230px;}
 div.mainBannr img{width:100%; height:100%; background-position: center;}
 
@@ -31,6 +31,15 @@ div.boxConts div.conts ul li.contList div.listInfo span.prsntr {color:#797979; f
 div.boxConts div.conts ul li.contList button.btnQstn {text-align:center; font-size:13px; width: 100%;border: 1px solid #ccc;padding: 3px 0 5px 0;margin-top: 4px;}
 div.boxConts div.conts ul:after {content:""; display:block; clear:both;}
 div.boxConts div.conts button.btnQstn:active {background:#208cff; color:#fff; border:1px solid #208cff !important; transition:0.3s;}
+
+div.conSession span.conTit {font-size:20px; display:block; text-align: center; font-weight: 700; margin:20px 0 10px;}
+div.conSession div.settionItem{width:100%; overflow:hidden; height:180px; text-align: center;}
+div.conSession div.settionItem span.settionTit{display:block; font-size:14px; text-align: center;}
+div.conSession div.settionItem span.settionSubtit{ display:block; font-size:13px; text-align: center;}
+div.conSession div.settionItem span.settionImg{ display:inline-block; width:60px; height:60px; background:#000; margin-top:20px;}
+
+
+
 
 /* iframeppt */
 div.boxConts div.conts ul li.contList.split01 {width:100%; margin-right:0;}
@@ -59,5 +68,5 @@ align-items: center;
 
 
 @media screen and (max-width: 1023px) {
-    ft
+    
 }

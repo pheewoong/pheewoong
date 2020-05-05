@@ -63,7 +63,7 @@ justify-content: center;
 -webkit-align-items: center;
 align-items: center;
 }
-.swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.4);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
+.swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.2);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
 .swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
 
 

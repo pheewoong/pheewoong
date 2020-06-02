@@ -16,16 +16,24 @@
 	<title>BonDay</title>
 </head>
 <body>
-	<div class="wrap mobile">
+	<div class="wrap">
 		<!-- header -->
 		<div class="header">
+			<div class="side_menu_box">
+				<button class=""></button>
+			</div>
 			<!-- titile -->
 			<div class="title">
 				<span class="titleText">본부의 날</span>
 			</div>
 			<!-- /titile -->
+			<div class="search_box">
+				<button class=""></button>
+				<input type="text" class="">
+			</div>
+			
 			<!-- gnb -->
-			<div class="gnb bondayMenu">
+			<div class="gnb bondayMenu" style="display:none;">
 				<ul>
 					<li class=" on"><a href="" class="">홈</a></li>
 					<li class=""><a href="" class="">발표자료</a></li>
@@ -37,13 +45,12 @@
 		
 		
 		<!-- mainBanner -->
-		<div class="mainBannr" style="display: none">
+		<div class="mainBannr" style="display:none ">
 			<!-- Swiper -->
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide"><img src="" style="background:red;" alt="배너 이미지"></div>
 					<div class="swiper-slide"><img src="" style="background:yellow;" alt="배너 이미지"></div>
-					<div class="swiper-slide"><img src="" style="background:green;" alt="배너 이미지"></div>
 				</div>
 				<!-- Add Pagination -->
 				<div class="swiper-pagination"></div>
@@ -53,78 +60,83 @@
 			</div>
 		</div>
 		<!-- /mainBanner -->
-		<div class="conSession">
-			<span class="conTit">SESSIONS</span>
-			<div class="swiper-container sesstions">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="settionItem">
-							<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
-							<span class="settionSubtit">#인공지능 #반값문자</span>
-							<span class="settionImg"><img src="" alt=""></span>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="settionItem">
-							<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
-							<span class="settionSubtit">#인공지능 #반값문자</span>
-							<span class="settionImg"><img src="" alt=""></span>
-						</div>
-					</div>
-					<div class="swiper-slide">
-						<div class="settionItem">
-							<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
-							<span class="settionSubtit">#인공지능 #반값문자</span>
-							<span class="settionImg"><img src="" alt=""></span>
-						</div>
-					</div>
-				</div>
-				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
-				<!-- Add Arrows -->
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-			</div>
-		</div>
-		<div class="">  
 		
+		
+		
+		
+		<div class="">  		
 			<!-- section -->
 			<div class="boxConts">
-				<div class="conTit">
-				  <h4 class="titTxt">발표자료</h4>
-				  <a href="" class="linkConts">더 보기</a>
+				<div class="item_box item_book">
+					<a href="" class="">
+						<div class="item_title_box">
+							<span class="item_title_text">북북북 리드북스 / 책 추천하기</span>
+						</div>
+					</a>
+				</div>	
+				<div class="item_box item_lattetalk">
+					<a href="" class="">
+						<div class="item_title_box">
+							<span class="item_title_text">멘토/꼰대 경험담 공유하기</span>
+						</div>
+					</a>
+				</div>				
+				<div class="item_box item_latte">
+					<a href="https://www.lllkkdti.com/" target="_blank" class="">
+						<div class="item_title_box">
+							<span class="item_title_text">나의 꼰대력 테스트</span>
+						</div>
+					</a>
 				</div>
-				<div class="conts">
-				  <ul class="">
-					<li class="contList split01">
-						<a href="">
-							<div class="listThumb">
-								<img src="img/testimg.jpg" alt=""/>
-							</div>
-						</a>
-						<div class="listInfo">
-							<span class="prsntTitle">2019년을 종료합니다다다다다다.</span>
-							<span class="prsntr">김재우</span>
-							<button class="btnQstn">질문하기</button>	
-						</div>	
-					</li>
-					<li class="contList split01">
-						<a href="">
-							<div class="listThumb">
-								<img src="img/testimg.jpg" alt=""/>
-							</div>
-						</a>
-						<div class="listInfo">
-							<span class="prsntTitle">2019년을 종료합니다다다다다다.</span>
-							<span class="prsntr">김재우</span>
-							<button class="btnQstn">질문하기</button>	
-						</div>	
-					</li>
-				</ul>
+				<div class="item_box item_seminar">
+					<a href="" class="">
+						<div class="item_title_box">
+							<span class="item_title_text">2020. 06. 11 본부의 날 참석하기</span>
+						</div>
+					</a>
 				</div>
 			</div>
 			<!-- /section -->
-		
+			<div class="conSession" style="display:;">
+				<span class="conTit">SESSIONS</span>
+				<div class="swiper-container sesstions">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="settionItem">
+								<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
+								<span class="settionSubtit">#인공지능 #반값문자</span>
+								<span class="settionImg"><img src="./img/490890-828411.jpg" alt=""></span>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="settionItem">
+								<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
+								<span class="settionSubtit">#인공지능 #반값문자</span>
+								<span class="settionImg"><img src="./img/490963-1151281.jpg" alt=""></span>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="settionItem">
+								<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
+								<span class="settionSubtit">#무작정 #반값문자</span>
+								<span class="settionImg"><img src="./img/972816-87121.jpg" alt=""></span>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="settionItem">
+								<span class="settionTit">세션주제 타이틀 제목 입력 영역1</span>
+								<span class="settionSubtit">#무작정 #5분발표</span>
+								<span class="settionImg"><img src="./img/491287-86825.jpg" alt=""></span>
+							</div>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
 		
 			<!-- section -->
 			<div class="boxConts">

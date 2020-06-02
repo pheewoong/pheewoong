@@ -1,19 +1,27 @@
 /* mobile main style */
-div.mobile {min-width:320px;}
-div.header {width:100%; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
+
+
+	
+
+@media screen and (max-width: 767px) {
+div.header {position:relative; width:100%; height:57px; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
 div.header div.title {font-size:14px; text-align:center; height:30px; line-height:30px; margin-bottom:10px; color:#2a2a2a; padding:0 16px;}
-div.header div.title span.titleText {font-weight:300; font-size:17px; font-weight:400;}
+div.header div.title span.titleText {font-size:18px; font-weight:400;}
 div.header div.gnb {background:#fff;}
 div.header div.gnb ul {padding:10px 0 0 0; display:table; width:100%;}
 div.header div.gnb ul li{position:relative; display:table-cell; font-size:15px;}
 div.header div.gnb ul li a{display:block; text-align:center; height:40px; line-height:40px;}
-/* div.header div.gnb ul li.menuTypeA {width:22%} */
-/* div.header div.gnb ul li.menuTypeB {width:32%} */
 div.header div.gnb ul li.on a{color:#208eff; font-weight:600;}
 div.header div.gnb ul li.on:before {content:""; position:absolute; bottom:-1px; left:0; display:block; width:100%; height:3px; background:#208eff;}
 div.mainBannr {width:100%; overflow:hidden; height:230px;}
 div.mainBannr img{width:100%; height:100%; background-position: center;}
 
+div.side_menu_box {position:absolute; top:15px; right:16px;}
+div.side_menu_box button {width:30px; height:30px; background:url(../img/common/menu-line.png); background-size:30px;}
+div.search_box {position:absolute; top:15px; left:16px;}
+div.search_box button {width:30px; height:30px; background:url(../img/common/search-line.png); background-size:30px;}
+div.search_box input {display:none;}
+	
 div.boxConts {padding:0 16px; margin-top:8px; letter-spacing:-0.025em;}
 div.boxConts div.conTit{line-height:30px;border-bottom:1px solid #000;padding: 10px 0;}
 div.boxConts div.conTit h4 {font-size:18px; display:inline-block;}
@@ -23,9 +31,9 @@ div.boxConts div.conts ul {margin-top:10px;}
 div.boxConts div.conts ul li.contList {width:calc(50% - 6px); margin-right:6px; margin-bottom:16px; float:left;}
 div.boxConts div.conts ul li.contList a {display:block;}
 div.boxConts div.conts ul li.contList:nth-child(2n) {margin-right:0;}
-div.boxConts div.conts ul li.contList div.listThumb {overflow:hidden; max-width:100%; height:auto; background:#000;}
-div.boxConts div.conts ul li.contList div.listThumb img {min-width: 100%;min-height: 100%;width: 100%;}
-div.boxConts div.conts ul li.contList div.listInfo {background:#fff; font-size:14px; padding:6px 0;}
+div.boxConts div.conts ul li.contList .listThumb {overflow:hidden; width:100%; height:100px; border-radius:5px; background:#ccc;}
+div.boxConts div.conts ul li.contList .listThumb img {min-width: 100%;min-height: 100%;width: 100%;}
+div.boxConts div.conts ul li.contList div.listInfo {font-size:14px; padding:6px 0;}
 div.boxConts div.conts ul li.contList div.listInfo span.prsntTitle{display:inline-block; width:90%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 div.boxConts div.conts ul li.contList div.listInfo span.prsntr {color:#797979; font-size:13px; line-height:15px; vertical-align:top;}
 div.boxConts div.conts ul li.contList button.btnQstn {text-align:center; font-size:13px; width: 100%;border: 1px solid #ccc;padding: 3px 0 5px 0;margin-top: 4px;}
@@ -36,9 +44,18 @@ div.conSession span.conTit {font-size:24px; display:block; text-align: center; f
 div.conSession div.settionItem{width:100%; overflow:hidden; height:180px; text-align: center;}
 div.conSession div.settionItem span.settionTit{display:block; font-size:14px; text-align: center;}
 div.conSession div.settionItem span.settionSubtit{ display:block; font-size:13px; text-align: center;}
-div.conSession div.settionItem span.settionImg{ display:inline-block; width:60px; height:60px; background:#000; margin-top:20px;}
+div.conSession div.settionItem span.settionImg{ display:inline-block; width:70px; height:70px; background:#fff; margin-top:20px; border-radius:35px; overflow:hidden; box-shadow:00px 0px 7px 2px rgba(144, 144, 144, 0.5)}
+div.conSession div.settionItem span.settionImg img {width:auto; height:auto; max-width:70px; max-height:70px;}
 
+div.item_box {position:relative; width:100%; height:100px; background:rgba(0,0,0,0.1); border-radius:5px; overflow:hidden; margin:10px 0;}
+div.item_box > a {display:block;} 
+div.item_box div.item_title_box {position:absolute; display:inline-block; bottom:0; left:0; right:0; padding:10px;}
+div.item_box span.item_title_text {display:inline-block; font-size:18px; color:#fff; filter: blur(0);}
 
+div.item_latte:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url(../img/latte.png); background-position:right; background-color:#00e2f1; background-repeat:no-repeat; background-size:100%; z-index:-1;}
+div.item_seminar:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url(../img/seminar.png); background-position:right; background-color:#00e2f1; background-repeat:no-repeat; background-size:100%; z-index:-1;}
+div.item_lattetalk:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url(../img/lattetalk.png); background-position:right; background-color:#00e2f1; background-repeat:no-repeat; background-size:100%; z-index:-1;}
+div.item_book:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url(../img/book.png); background-position:right; background-color:#00e2f1; background-repeat:no-repeat; background-size:100%; z-index:-1;}
 
 
 /* iframeppt */
@@ -67,6 +84,6 @@ align-items: center;
 .swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
 
 
-@media screen and (max-width: 1023px) {
+
     
 }

@@ -32,8 +32,9 @@ div.conSession div.settionItem span.settionTit{display:block; font-size:20px; te
 div.conSession div.settionItem span.settionSubtit{ display:block; font-size:15px; text-align: center;}
 div.conSession div.settionItem span.settionImg{ display:inline-block; width:80px; height:80px; background:#fff; margin-top:20px; border-radius:40px; overflow:hidden; box-shadow:00px 0px 7px 2px rgba(144, 144, 144, 0.5)}
 div.conSession div.settionItem span.settionImg img {width:auto; height:auto; max-width:80px; max-height:80px;}
+.swiper-container {width: 990px; margin:0 auto; height: 100%;}
 .swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.2);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
-.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
+.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#333;}
 
 
 
@@ -115,6 +116,8 @@ justify-content: center;
 -webkit-align-items: center;
 align-items: center;
 }
+.swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.2);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
+.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
 
 
     

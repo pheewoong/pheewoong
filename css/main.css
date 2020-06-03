@@ -20,13 +20,13 @@ a.item_box span.item_title_text {position:relative; display:inline-block; font-s
 a.item_box span.item_title_text:before {content:""; opacity:0; display:inline-block; position:absolute; bottom:-4px; left:0; width:0%; height:1px; background:#000; transition:0.3s;}
 a.item_box:hover  span.item_title_text:before {width:100%; opacity:1;}
 a.item_box:hover {background:rgba(0,0,0,0.0);}
-a.item_latte:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px; background:url(../img/latte.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
+a.item_latte:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px; background:url(../img/sesstion2.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
 a.item_seminar:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px;background:url(../img/seminar.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1; background-color:#ef0404;}
 a.item_lattetalk:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%;border-radius:5px; background:url(../img/lattetalk.png); background-position:right;background-repeat:no-repeat; background-size:100%; z-index:-1;}
-a.item_book:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px;background:url(../img/book.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
+a.item_book:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px;background:url(../img/sesstion1.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
 
 
-span.conTit {font-size:48px; display:block; text-align: center; font-weight: 700; margin:20px 0 10px;}
+span.conTit {font-size:48px; display:block; text-align: center; font-weight: 900; margin:20px 0 10px;}
 div.conSession div.settionItem{width:100%; overflow:hidden; height:210px; text-align: center;}
 div.conSession div.settionItem span.settionTit{display:block; font-size:20px; text-align: center;}
 div.conSession div.settionItem span.settionSubtit{ display:block; font-size:15px; text-align: center;}
@@ -46,7 +46,7 @@ div.boxConts div.conts ul {margin-top:10px;}
 div.boxConts div.conts ul li.contList {width:calc(25% - 12px); margin-right:15px; margin-bottom:16px; float:left;}
 div.boxConts div.conts ul li.contList a {display:block;}
 div.boxConts div.conts ul li.contList:nth-child(4n) {margin-right:0;}
-div.boxConts div.conts ul li.contList .listThumb {overflow:hidden; width:100%; max-height:76px; border-radius:5px; background:#ccc;}
+div.boxConts div.conts ul li.contList .listThumb {overflow:hidden; width:100%; max-height:145px; border-radius:5px; background:#ccc;}
 div.boxConts div.conts ul li.contList .listThumb img {max-width: 100%;max-height: 100%; height:auto; width: auto;}
 div.boxConts div.conts ul li.contList div.listInfo {font-size:14px; padding:6px 0;}
 div.boxConts div.conts ul li.contList div.listInfo span.prsntTitle{display:inline-block; width:90%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
@@ -55,8 +55,7 @@ div.boxConts div.conts ul li.contList button.btnQstn {text-align:center; font-si
 div.boxConts div.conts ul:after {content:""; display:block; clear:both;}
 div.boxConts div.conts button.btnQstn:active {background:#208cff; color:#fff; border:1px solid #208cff !important; transition:0.3s;}
 
-
-	
+div.banner_donation {width:100%; background:url(../../.jpg); background-repeat:no-repeat; background-position:center; height:150px; margin:40px 0;}
 
 @media screen and (max-width: 767px) {
 div.header {position:relative; width:100%; height:57px; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
@@ -82,7 +81,7 @@ div.boxConts div.conts ul li.contList {width:calc(50% - 6px); margin-right:12px;
 div.boxConts div.conts ul li.contList a {display:block;}
 div.boxConts div.conts ul li.contList:nth-child(2n) {margin-right:0;}
 
-span.conTit {font-size:24px; display:block; text-align: center; font-weight: 700; margin:20px 0 10px;}
+span.conTit {font-size:24px; display:block; text-align: center; font-weight: 900; margin:20px 0 10px;}
 div.conSession div.settionItem{width:100%; overflow:hidden; height:180px; text-align: center;}
 div.conSession div.settionItem span.settionTit{display:block; font-size:14px; text-align: center;}
 div.conSession div.settionItem span.settionSubtit{ display:block; font-size:13px; text-align: center;}
@@ -94,6 +93,10 @@ a.item_box > a {display:block;}
 a.item_box div.item_title_box {position:absolute; display:inline-block; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 81%);}
 a.item_box span.item_title_text {display:inline-block; font-size:18px; color:#fff;}
 a.item_box span.item_title_text:before {display:none;}
+
+div.banner_donation {height:100px; margin:40px 0;}
+
+
 /* iframeppt */
 div.boxConts div.conts ul li.contList.split01 {width:100%; margin-right:0;}
 div.boxConts div.conts ul li.contList.split01 iframe {width:100%;}

@@ -1,114 +1,3 @@
-/* mobile main style */
-
-div.header {position:relative; width:100%; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
-div.header div.title {text-align:left; margin-bottom:10px; color:#2a2a2a; padding:5px 16px; transition:0.3s;}
-div.header div.title span.titleText {font-size:22px; font-weight:400;}
-
-div.side_menu_box {position:absolute; top:25px; right:16px;}
-div.side_menu_box button {width:30px; height:30px; background:url(../img/common/menu-line.png); background-size:30px;}
-div.search_box {position:absolute; top:25px; right:60px;}
-div.search_box button {width:30px; height:30px; background:url(../img/common/search-line.png); background-size:30px;}
-div.search_box input {display:none;}
-
-div.boxConts {width:1024px; margin:30px auto 0;}
-div.boxConts:after {display:block; content:""; clear:both;}
-a.item_box {position:relative; float:left; width:calc(33.33% - 10px); height:200px; background:rgba(0,0,0,0.1); border-radius:5px; margin:10px 10px 68px 0; transition:0.3s;}
-a.item_box > a {display:block;} 
-a.item_box:nth-child(4n) {width:100%; margin-right:0;}
-a.item_box div.item_title_box {position:absolute; display:inline-block; bottom:-47px; left:0; right:0; padding:10px;}
-a.item_box span.item_title_text {position:relative; display:inline-block; font-size:18px; color:#000;}
-a.item_box span.item_title_text:before {content:""; opacity:0; display:inline-block; position:absolute; bottom:-4px; left:0; width:0%; height:1px; background:#000; transition:0.3s;}
-a.item_box:hover  span.item_title_text:before {width:100%; opacity:1;}
-a.item_box:hover {background:rgba(0,0,0,0.0);}
-a.item_latte:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px; background:url(../img/sesstion2.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
-a.item_seminar:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px;background:url(../img/seminar.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1; background-color:#ef0404;}
-a.item_lattetalk:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%;border-radius:5px; background:url(../img/lattetalk.png); background-position:right;background-repeat:no-repeat; background-size:100%; z-index:-1;}
-a.item_book:after{content:""; display:block; position:absolute; top:0; left:0; width:100%; height:100%; border-radius:5px;background:url(../img/sesstion1.png); background-position:right; background-repeat:no-repeat; background-size:100%; z-index:-1;}
-
-div.bonday_message {display:table; width:1024px; margin:40px auto;}
-div.bonday_message p.text_main {display:table-cell; width:30%; font-size:36px; font-weight:900; vertical-align:top;}
-div.bonday_message p.text_sub {display:table-cell; width:70%; font-size:16px; color:#757575; padding-left:30px; vertical-align:top;}
-span.conTit {font-size:48px; display:block; text-align: center; font-weight: 900; margin:20px 0 10px;}
-div.conSession div.settionItem{width:100%; overflow:hidden; height:210px; text-align: center;}
-div.conSession div.settionItem span.settionTit{display:block; font-size:20px; text-align: center;}
-div.conSession div.settionItem span.settionSubtit{ display:block; font-size:15px; text-align: center; word-spacing:10px;}
-div.conSession div.settionItem span.settionImg{ display:inline-block; width:80px; height:80px; background:#fff; margin-top:20px; border-radius:40px; overflow:hidden; box-shadow:00px 0px 7px 2px rgba(144, 144, 144, 0.5)}
-div.conSession div.settionItem span.settionImg img {width:auto; height:auto; max-width:80px; max-height:80px;}
-.swiper-container {width: 990px; margin:0 auto; height: 100%;}
-.swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.2);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
-.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#333;}
-
-
-
-div.boxConts div.box_Tit{line-height:30px;border-bottom:1px solid #000;padding: 10px 0;}
-div.boxConts div.box_Tit h4 {font-size:18px; display:inline-block;}
-div.boxConts div.box_Tit h4 span.pointTxt{color:#208eff; font-size:14px; margin-left:5px;}
-div.boxConts div.box_Tit .linkConts{display:inline-block; float:right; font-weight:500; font-size:14px; color:#747474}
-div.boxConts div.conts ul {margin-top:10px;}
-div.boxConts div.conts ul li.contList {width:calc(25% - 12px); margin-right:15px; margin-bottom:16px; float:left;}
-div.boxConts div.conts ul li.contList a {display:block;}
-div.boxConts div.conts ul li.contList:nth-child(4n) {margin-right:0;}
-div.boxConts div.conts ul li.contList .listThumb {overflow:hidden; width:100%; max-height:145px; border-radius:5px; background:#ccc;}
-div.boxConts div.conts ul li.contList .listThumb img {max-width: 100%;max-height: 100%; height:auto; width: auto;}
-div.boxConts div.conts ul li.contList:hover .listThumb {position:relative;}
-div.boxConts div.conts ul li.contList:hover .listThumb:before {content:""; width:100%; height:100%; position:absolute; left:0; bottom:0; background:linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.4) 80%); transition:0.3s;}
-div.boxConts div.conts ul li.contList:hover span.prsntTitle {text-decoration:underline;}
-div.boxConts div.conts ul li.contList div.listInfo {font-size:14px; padding:6px 0;}
-div.boxConts div.conts ul li.contList div.listInfo span.prsntTitle{display:inline-block; width:90%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
-div.boxConts div.conts ul li.contList div.listInfo span.prsntr {color:#797979; font-size:13px; line-height:15px; vertical-align:top;}
-div.boxConts div.conts ul li.contList button.btnQstn {text-align:center; font-size:13px; width: 100%;border: 1px solid #ccc;padding: 3px 0 5px 0;margin-top: 4px;}
-div.boxConts div.conts ul:after {content:""; display:block; clear:both;}
-div.boxConts div.conts button.btnQstn:active {background:#208cff; color:#fff; border:1px solid #208cff !important; transition:0.3s;}
-div.banner_bonday {display:none;}
-div.banner_donation {width:100%; margin:40px auto 0; height:125px; background:url(../img/dona.jpg) no-repeat center; background-size:40%; background-color:#ffdd01;}
-
-@media screen and (max-width: 767px) {
-div.header {position:relative; width:100%; height:57px; padding:16px 0 0 0; border-bottom:1px solid #ccc;}
-div.header div.title {text-align:center; height:30px; line-height:30px; margin-bottom:10px; color:#2a2a2a; padding:0 16px;}
-div.header div.title span.titleText {font-size:18px; font-weight:400;}
-div.header div.gnb {background:#fff;}
-div.header div.gnb ul {padding:10px 0 0 0; display:table; width:100%;}
-div.header div.gnb ul li{position:relative; display:table-cell; font-size:15px;}
-div.header div.gnb ul li a{display:block; text-align:center; height:40px; line-height:40px;}
-div.header div.gnb ul li.on a{color:#208eff; font-weight:600;}
-div.header div.gnb ul li.on:before {content:""; position:absolute; bottom:-1px; left:0; display:block; width:100%; height:3px; background:#208eff;}
-div.mainBannr {width:100%; overflow:hidden; height:230px;}
-div.mainBannr img{width:100%; height:100%; background-position: center;}
-
-div.side_menu_box {position:absolute; top:15px; right:16px;}
-div.side_menu_box button {width:30px; height:30px; background:url(../img/common/menu-line.png); background-size:30px;}
-div.search_box {position:absolute; top:15px; left:16px;}
-div.search_box button {width:30px; height:30px; background:url(../img/common/search-line.png); background-size:30px;}
-div.search_box input {display:none;}
-	
-div.boxConts {width:100%; padding:0 16px; margin-top:8px; letter-spacing:-0.025em;}
-div.boxConts div.conts ul li.contList {width:calc(50% - 6px); margin-right:12px; margin-bottom:16px; float:left;}
-div.boxConts div.conts ul li.contList a {display:block;}
-div.boxConts div.conts ul li.contList:nth-child(2n) {margin-right:0;}
-
-span.conTit {font-size:24px; display:block; text-align: center; font-weight: 900; margin:20px 0 10px;}
-div.conSession div.settionItem{width:100%; overflow:hidden; height:180px; text-align: center;}
-div.conSession div.settionItem span.settionTit{display:block; font-size:14px; text-align: center;}
-div.conSession div.settionItem span.settionSubtit{ display:block; font-size:13px; text-align: center;}
-div.conSession div.settionItem span.settionImg{width:70px; height:70px; border-radius:35px;}
-div.conSession div.settionItem span.settionImg img {max-width:70px; max-height:70px;}
-
-a.item_box {position:relative; width:100%; height:100px; background:rgba(0,0,0,0.1); border-radius:5px; overflow:hidden; margin:10px 0;}
-a.item_box > a {display:block;} 
-a.item_box div.item_title_box {position:absolute; display:inline-block; bottom:0; left:0; right:0; padding:10px; background:linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 81%);}
-a.item_box span.item_title_text {display:inline-block; font-size:18px; color:#fff;}
-a.item_box span.item_title_text:before {display:none;}
-
-
-div.banner_bonday {display:block; width:100%; background:url(../img/serdv.jpg); background-repeat:no-repeat; background-position:center; background-color:#000; height:32px; background-size:512px;}
-div.bonday_message {display:none;}
-div.banner_donation {width:100%; margin:40px auto 0; height:100px; background:url(../img/dona.jpg) no-repeat center; background-size:100%; background-color:#ffdd01;}
-
-
-/* iframeppt */
-div.boxConts div.conts ul li.contList.split01 {width:100%; margin-right:0;}
-div.boxConts div.conts ul li.contList.split01 iframe {width:100%;}
-
 
 /* swiper */
 .swiper-container {width: 100%;height: 100%;}
@@ -127,9 +16,23 @@ justify-content: center;
 -webkit-align-items: center;
 align-items: center;
 }
+.swiper-container {width: 990px; margin:0 auto; height: 100%;}
 .swiper-pagination {font-size:12px;width: 60px !important; height:24px; line-height:24px; color:#fff; background-color:rgba(0,0,0,0.2);left: 50% !important;display: inline-block;margin-left: -30px; border-radius:12px;}
-.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#fff;}
+.swiper-button-next:after, .swiper-button-prev:after {font-size:15px!important; color:#333;}
 
+/* header */
 
-    
-}
+div.header {width: 990px; margin:0 auto;}
+div.header::before {content:""; display: block; clear:both;}
+div.header span.logo{ display: inline-block; float: left; font-weight: 900; font-size:20px;}
+div.header div.gnb { display: block; float: left; margin-left:100px;}
+div.header div.gnb ul li { display: inline-block; padding:4px 10px; font-size:16px; color:#121212;}
+div.header div.header_search { display: inline-block; float: right; transition:.2s;}
+div.header div.header_search.on {width:; }
+div.header div.header_search span.icon_sarch{ display: inline-block; cursor: pointer;}
+
+/* content */
+div.content {}
+
+/* footer */
+div.footer {}

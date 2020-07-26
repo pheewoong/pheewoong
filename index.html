@@ -2,60 +2,201 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>BonDay</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-  <link href="css/bonjs.css" rel="stylesheet">
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="css/default.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/swiper.min.css" rel="stylesheet">
+	<title>BonDay</title>
 </head>
-
 <body>
-  <!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"> -->
-  <!-- <source src="mp4/bg.mp4" type="video/mp4"> -->
-  </video>
+	<div class="wrap">
+		<div class="header">
+			<span class="logo">BONDAY</span>
+			<div class="gnb">
+					<ul>
+						<li>본데이라이브</li>
+						<li>본펀지</li>
+						<li>공지사항</li>
+						<li>공지사항</li>
+						<li>발표자료</li>
+					</ul>
+			</div>
+			<div class="header_search">
+				<span class="icon_search"></span>
+				<input type="text" class="" placeholder="">
+			</div>
+		</div>
+		<div class="content">
+				<div class="main_banner">
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="" style="background:red;" alt="배너 이미지"></div>
+							<div class="swiper-slide"><img src="" style="background:yellow;" alt="배너 이미지"></div>
+						</div>
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+					</div>
+				</div>
+				<div class="content_box ">
+					<ul class="box_sessions_list">
+						<li>
+							<a href="" class="list_item">
+								<div class="">
+								</div>
+								<div>
+									<span>본펀지</span>
+									<span>개발본부원의 궁금증을 해결해 드립니다.</span>
+									<button class="">궁금증 제보하기</button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="list_item">
+								<div class="">
+								</div>
+								<div>
+									<span>본펀지</span>
+									<span>개발본부원의 궁금증을 해결해 드립니다.</span>
+									<button class="">궁금증 제보하기</button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="list_item">
+								<div class="">
+								</div>
+								<div>
+									<span>본펀지</span>
+									<span>개발본부원의 궁금증을 해결해 드립니다.</span>
+									<button class="">궁금증 제보하기</button>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
 
-  <div class="wrapBonday">
-    <div class="tityArea">
-      <div class="titCopy">
-        <h1 class="">2020<br />BonDay ;</h1>
-        <span class="subTit">Service Dev Conference</span>
-        <p class="timerArea" id="dday-timer">
-          <strong id="time-day"></strong> 일&nbsp;
-          <strong id="time-hour"></strong> 시간
-          <strong id="time-minute"></strong> 분
-          <strong id="time-second"></strong>  초 남음
-        </p>       
-        <span class="subCopy">Enjoy Development & Design</span>
-      </div>
-    </div>
-    <span class="bonSymbol">{</span>
-    <div class="overlay"></div>
-  </div>
- 
+				<!-- notice -->
+				<div class="box_noti">
+					<span class="noti_tit">공지사항</span>
+					<p class="noti_txt">3분기 본부의날이 웨비나로 진행됩니다. </p>
+					<span class="noti_date">20.09.11</span>
+					<span class="contrl_"></span>
+				</div>
+				<!-- /notice -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+				<!-- present_data -->
+				<div class="content_box">
+					<span class="box_title">본부의날 자료</span>
+					<ul class="box_data_category">
+						<li>#전체보기</li>
+						<li>#개발</li>
+						<li>#컨퍼런스 후기</li>
+						<li>#디자인</li>
+						<li>#스터디</li>
+						<li>#인프라</li>
+					</ul>
+					<ul class="box_data_list">
+						<li>
+							<div class="data_item">
+								<div class="data_thumb"></div>
+								<div class="data_info">
+									<span class="data_speaker">김개발</span>
+									<span class="data_date">19.08.08</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="data_item">
+								<div class="data_thumb"></div>
+								<div class="data_info">
+									<span class="data_speaker">김개발</span>
+									<span class="data_date">19.08.08</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="data_item">
+								<div class="data_thumb"></div>
+								<div class="data_info">
+									<span class="data_speaker">김개발</span>
+									<span class="data_date">19.08.08</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="data_item">
+								<div class="data_thumb"></div>
+								<div class="data_info">
+									<span class="data_speaker">김개발</span>
+									<span class="data_date">19.08.08</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="data_item">
+								<div class="data_thumb"></div>
+								<div class="data_info">
+									<span class="data_speaker">김개발</span>
+									<span class="data_date">19.08.08</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<div class="box_area">
+						<button class="btn_line btn_typeA">더보기</button>
+					</div>
+				</div>
+				<!-- present_data -->
 
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.js"></script>
+				<div class="content_box">
+					<span class="box_title">본부의날 자료</span>
+					<p></p>
+					<ul class="box_sponsor_list">
+							<li>
+								<img src="" />
+								<span>금주님</span>
+							</li>
+							<li>
+								<img src="" />
+								<span>금주님</span>
+							</li>
+							<li>
+								<img src="" />
+								<span>금주님</span>
+							</li>
+					</ul>
+					<div class="box_area">
+						<button class="btn_line btn_typeA">후원문의</button>
+					</div>
+				</div>
+		</div>
+		<div class="foooter">
+			<div>
+				<span>후원계좌</span>
+				<span>카카오뱅크</span>
+				<span>본준생</span>
+				<strong>7979-17-94222</strong>
+			</div>
+			<div>
+				<span>후원문의</span>
+				<span>070-8707-1781</span>
+				<span>오전 08:00 - 오후 18:30</span>
+			</div>
+			<strong>서비스 개발본부의 날</strong>
+		</div>
+	</div>
 
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="js/m_main.js"></script>
+	<script src="js/swiper.min.js"></script>
 </body>
 
 </html>

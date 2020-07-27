@@ -22,7 +22,7 @@ align-items: center;
 
 /* header */
 
-div.header {width: 990px; margin:0 auto;}
+div.header {width: 990px; margin-top:40px; margin:0 auto;}
 div.header::before {content:""; display: block; clear:both;}
 div.header span.logo{ display: inline-block; float: left; font-weight: 900; font-size:20px;}
 div.header div.gnb { display: block; float: left; margin-left:100px;}
@@ -33,6 +33,7 @@ div.header div.header_search span.icon_sarch{ display: inline-block; cursor: poi
 
 /* content */
 div.content {}
+div.content .main_banner{height:192px;}
 
 /* footer */
 div.footer {}
